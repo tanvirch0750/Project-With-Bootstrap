@@ -1,3 +1,3 @@
 # BOOTSTRAP PROJECTS
 
-<!-- see all the projects live [here](https://suspicious-hawking-2c506e.netlify.app/) -->
+see all the projects live [here](https://vibrant-ritchie-b0ecde.netlify.app/)
