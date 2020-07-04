@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Bootstrap Theme - Glozzom</title>
+  </head>
+
+  <body>
+    <!-- todo -> Navigation -->
+    <nav
+      class="navbar navbar-expand-sm navbar-dark"
+      uk-sticky="top: 100; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up"
+    >
+      <div class="container">
+        <a href="index.html" class="navbar-brand">Glozzom</a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="services.html" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="blog.html" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- todo-> SHOWCASE SLIDER -->
+    <section id="showcase">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-image-1 active">
+            <div class="container">
+              <div class="carousel-caption text-sm-center text-md-left mb-5">
+                <h1 class="display-3 text-white">We Are With You</h1>
+                <p class="lead d-none d-sm-block">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minima unde sit saepe non laborum quos corporis quae Suscipit,
+                  vitae veniam!
+                </p>
+                <a href="#" class="btn btn-success">Sign Up Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item carousel-image-2">
+            <div class="container">
+              <div class="carousel-caption mb-5 text-sm-center text-md-right">
+                <h1 class="display-3 text-white">Explore The World</h1>
+                <p class="lead d-none d-sm-block">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minima unde sit saepe non laborum quos corporis quae Suscipit,
+                  vitae veniam!
+                </p>
+                <a href="#" class="btn btn-success">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item carousel-image-3">
+            <div class="container">
+              <div class="carousel-caption text-center mb-5">
+                <h1 class="display-3 text-white">Never Ever Give Up</h1>
+                <p class="lead d-none d-sm-block">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minima unde sit saepe non laborum quos corporis quae Suscipit,
+                  vitae veniam!
+                </p>
+                <a href="#" class="btn btn-success">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- todo -> feature section (home) -->
+    <section id="home-feature" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4 text-center">
+            <i class="fas fa-cog fa-3x mb-2"></i>
+            <h3>Turning Gears</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia,
+              et.
+            </p>
+          </div>
+          <div class="col-md-4 mb-4 text-center">
+            <i class="fas fa-cloud fa-3x mb-2"></i>
+            <h3>Sending Data</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia,
+              et.
+            </p>
+          </div>
+          <div class="col-md-4 mb-4 text-center">
+            <i class="fas fa-cart-plus fa-3x mb-2"></i>
+            <h3>Making Money</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia,
+              et.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- todo -> Home Heading -->
+    <section id="home-heading" class="p-5">
+      <div class="dark-overlay">
+        <div class="row">
+          <div class="col">
+            <div class="container pt-5">
+              <h2 class="text-white">Are You Ready To Get Started?</h2>
+              <p class="d-none d-md-block">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio ducimus repellendus laboriosam assumenda in nulla
+                numquam tempore animi quia nam?
+              </p>
+              <button class="btn btn-success">Sign Up Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- todo-> Info section -->
+    <section id="info" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 align-self-center">
+            <h3>Lorem Ipsum</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
+              rerum, expedita voluptatem sunt dolorum nisi? Harum reprehenderit
+              recusandae doloremque nostrum.
+            </p>
+            <a href="about.html" class="btn btn-outline-success mb-3"
+              >Learn More</a
+            >
+          </div>
+          <div class="col-md-6">
+            <img src="img/pc.jpeg" alt="laptop" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- todo -> Video play -->
+
+    <section id="video-play" class="text-center">
+      <div class="dark-overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 mt-5 pt-2">
+              <div uk-lightbox>
+                <a href="https://youtu.be/5GcQtLDGXy8" class="text-light">
+                  <i class="fas fa-play fa-3x"></i
+                ></a>
+              </div>
+              <h2 class="mt-2 text-light">See What We Do</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- todo -> photo gallery -->
+    <section id="gallery" class="py-5" uk-lightbox>
+      <div class="container">
+        <div class="row text-center mb-5">
+          <div class="col-12">
+            <h2>Photo Gallery</h2>
+            <p class="lead">Check Out Our Photos</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div>
+              <a href="img/image1.jpeg">
+                <img src="img/image1.jpeg" class="img-fluid rounded" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <a href="img/image2.jpeg">
+              <img src="img/image2.jpeg" class="img-fluid rounded" alt="" />
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="img/image3.jpeg">
+              <img src="img/image3.jpeg" class="img-fluid rounded" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="row pt-0 pt-md-4">
+          <div class="col-md-4">
+            <div>
+              <a href="img/image4.jpeg">
+                <img src="img/image4.jpeg" class="img-fluid rounded" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <a href="img/image5.jpeg">
+              <img src="img/image5.jpeg" class="img-fluid rounded" alt="" />
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="img/image6.jpeg">
+              <img src="img/image6.jpeg" class="img-fluid rounded" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TODO-> NEWSLETTER -->
+    <section id="newsletter" class="text-center p-5 bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="text-white">Sign Up For Our Newsletter</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Necessitatibus eaque, aspernatur temporibus esse officia autem
+              porro nihil culpa nam cupiditate!
+            </p>
+            <form class="form-inline justify-content-center">
+              <input
+                type="text"
+                class="form-control mb-2 mr-2"
+                placeholder="Enter Name"
+              />
+              <input
+                type="email"
+                class="form-control mb-2 mr-2"
+                placeholder="Enter Email"
+              />
+              <button class="btn btn-success mb-2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- todo -> Footer -->
+    <footer id="footer" class="text-center p-2">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p class="text-white mt-2">
+              Copyright &copy; <span id="year"></span> Glozzom
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script/uikit.min.js"></script>
+    <script src="script/uikit-icons.min.js"></script>
+
+    <script>
+      // Get the current year for the copyright
+      $("#year").text(new Date().getFullYear());
+
+      // Configure Slider
+      $(".carousel").carousel({
+        interval: 6000,
+        pause: "hover",
+      });
+
+      // Video Play
+      $(function () {
+        // Auto play modal video
+        $(".video").click(function () {
+          var theModal = $(this).data("target"),
+            videoSRC = $(this).attr("data-video"),
+            videoSRCauto =
+              videoSRC +
+              "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+          $(theModal + " iframe").attr("src", videoSRCauto);
+          $(theModal + " button.close").click(function () {
+            $(theModal + " iframe").attr("src", videoSRC);
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,136 @@
+body {
+  overflow-x: hidden;
+}
+
+nav {
+  background-color: #000;
+}
+nav .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  background-image: url(../img/image1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.carousel-image-2 {
+  background-image: url(../img/image2.jpeg);
+  background-size: cover;
+}
+.carousel-image-3 {
+  background-image: url(../img/image3.jpeg);
+  background-size: cover;
+}
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background-image: url(../img/lights.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background-image: url(../img/people.jpeg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+#video-play a {
+  color: #fff;
+  text-decoration: none;
+}
+#video-play i {
+  color: #218838;
+}
+
+#gallery img {
+  min-height: 250px;
+}
+
+#about-heading {
+  background: url(../img/image1.jpeg);
+  height: 200px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#about-info img {
+  width: 350px;
+  height: 350px;
+}
+
+#icon-boxes .fa,
+#icon-boxes .fab {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+#testimonial .slick-prev::before,
+#testimonial .slick-next::before {
+  color: #fff;
+}
+
+#services-heading {
+  background: url(../img/image3.jpeg);
+  height: 200px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#accordion .card a {
+  color: #000;
+}
+
+#blog-heading {
+  background: url(../img/image2.jpeg);
+  height: 200px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#contact-heading {
+  background: url(../img/image1.jpeg);
+  height: 200px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#staff img {
+  width: 200px;
+  height: 200px;
+}
+
+#footer {
+  background: #000;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 567px) {
+  h1 {
+    font-size: 60px !important;
+  }
+}
