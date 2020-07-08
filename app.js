@@ -1,4 +1,5 @@
-const projects = [{
+const projects = [
+  {
     name: "glozzom-multipage-website",
   },
   {
@@ -10,13 +11,14 @@ const projects = [{
   {
     name: "mizuxe-book-theme",
   },
+  {
+    name: "portfolio-using-bootstrap-collapse",
+  },
 ];
 
 const list = document.getElementById("list");
 
-projects.forEach(({
-  name
-}, i) => {
+projects.forEach(({ name }, i) => {
   const listLink = document.createElement("a");
   const listItem = document.createElement("li");
   listLink.href = `/${name}/index.html`;

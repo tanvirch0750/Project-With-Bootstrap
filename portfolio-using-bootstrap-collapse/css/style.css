@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+
+.main {
+  /* //background-color: #1f2430; */
+  padding-right: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  font-size: 20px;
+}
+
+.port-item {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.port-item:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+.footer {
+  height: 100%;
+  padding: 100px;
+  background-color: #000;
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .main {
+    padding-right: 15px;
+  }
+}
