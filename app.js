@@ -11,9 +11,9 @@ const projects = [
   {
     name: "mizuxe-book-theme",
   },
-  {
-    name: "portfolio-using-bootstrap-collapse",
-  },
+  // {
+  //   name: "portfolio-using-bootstrap-collapse",
+  // },
 ];
 
 const list = document.getElementById("list");
